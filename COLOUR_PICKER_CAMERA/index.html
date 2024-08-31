@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Using Webcam</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        video {
+            transform: scaleX(-1);
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        #color-display {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <video id="webcam" autoplay></video>
+    <div id="color-display">Color</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+.container{
+    height: 10vh;
+    width: 50vw;
+}
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates a responsive grid */
+    gap: 20px; /* Adds space between grid items */
+    margin: 20px;
+    padding: 0;
+}

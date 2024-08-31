@@ -1,0 +1,127 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.canvas{
+    /* height: 500px;
+    width: 800px; */
+    
+    background-color: rgb(220, 220, 182);
+    display: block;
+    touch-action: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* margin-top: 15vh; */
+    border: 10px solid black;
+    width: min-content;
+    margin-top: 100px;
+    margin: 0;
+    padding: 0;
+}
+.countbox{
+    display: flex;;
+    height: 200px;
+    width: 200px;
+    border: 7px solid black;
+    font-size: 200px;
+    margin-top: -500px;
+    margin-left: 840px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: green;
+
+    
+}
+
+.start{
+    font-family: "VT323", monospace;
+    background-color: rgb(197, 197, 160);
+}
+.gameover{
+    display: none;
+    font-size: 200px;
+    margin-left: 5px;
+    margin-top: -400px;
+
+    
+}
+body{
+    font-family: "VT323", monospace;
+    background-color: rgb(225, 225, 155);
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 820px ) {
+
+    .canvas{
+                
+                margin: 0;
+                padding: 0;
+                width: 800px;
+                height: 900px
+
+                
+    }
+    .countbox{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .gameover{
+        font-size: 100px;
+        margin-top: -800px;
+    }
+}
+
+@media only screen and (max-width: 1000px ) {
+
+    .canvas{
+                
+                margin: 0;
+                padding: 0;
+                width: 300px;
+                height: 550px
+
+                
+    }
+    .countbox{
+        margin-top: -10px;
+        margin-left: 0px;
+        height: 100px;
+        width: 100px;
+    }
+    .gameover{
+        font-size: 100px;
+        margin-top: -800px;
+    }
+}
+
+@media only screen and (min-height: 1000px ) {
+
+    .canvas{
+                
+                margin: 0;
+                padding: 0;
+                width: 300px;
+                height: 550px
+
+                
+    }
+}

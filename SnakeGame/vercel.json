@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "Snakee.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/Snakee.html" }
+    ]
+  }
+  

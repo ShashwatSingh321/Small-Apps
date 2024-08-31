@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="left">
+        <button onclick="startVideo()">Start Webcam</button>
+        <button onclick="stopVideo()">Stop Webcam</button>
+    </div>
+    <video class="video" width="720" height="560" autoplay muted></video>
+    <div class="controls">
+        <button onclick="applyfilter('none')">Normal</button>
+        <button onclick="applyfilter('grayscale(100%)')">GrayScale</button>
+        <button onclick="applyfilter('sepia(100%)')">Sepia</button>
+        <button onclick="applyfilter('invert(100%)')">Invert</button>
+        <button onclick="applyfilter('blur(5px)')">Blur</button>
+        <button onclick="applyfilter('brightness(150%)')">Brightness</button>
+        <button onclick="applyfilter('contrast(200%)')">Contrast</button>
+        <button onclick="applyfilter('saturate(200%)')">Saturate</button>
+        <button onclick="applyfilter('hue-rotate(90deg)')">Hue Rotate</button>
+       
+    </div>
+    
+    <script defer src="javascript.js"></script>
+</body>
+</html>

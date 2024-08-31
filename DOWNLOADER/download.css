@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    border: 3px solid #4a90e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(19, 2, 2, 0.2);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: rgb(253, 252, 245);
+    margin-bottom: 90px;
+    
+
+}
+.download{
+    background-color: rgb(233, 128, 23);
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    font-weight:200;
+}
+.input{
+    display: flex;
+    margin-bottom: 20px;
+    /* height: 0px; */
+}

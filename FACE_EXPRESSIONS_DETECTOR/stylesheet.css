@@ -1,0 +1,41 @@
+body{
+margin: 0;
+padding: 0;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+/* justify-items: center; */
+/* background-color: black; */
+}
+.video{
+    transform: scaleX(-1);
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.left{
+    display: flex;
+    /* float: left; */
+    flex-direction: column;
+    gap: 10px;
+    
+}

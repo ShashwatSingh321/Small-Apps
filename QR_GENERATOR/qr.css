@@ -1,0 +1,13 @@
+.alertmsg{
+    background-color: red;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+body{
+    background-color: rgb(74, 74, 165);
+}

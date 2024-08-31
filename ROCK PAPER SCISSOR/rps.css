@@ -1,0 +1,49 @@
+.box{
+    display: flex;
+    height: 50vh;
+    width: 60vh;
+    border: 2px solid purple;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    overflow: hidden;
+    font-weight: 900;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    gap: 4px;
+    /* padding: 10px; */
+
+}
+.boxx{
+    display: flex;
+    height: 40vh;
+    width: 60vh;
+    border: 2px solid purple;
+    margin-top: 30px;
+   margin-left: 410px;
+   cursor: pointer;
+   justify-content: center;
+   align-items: center;
+   font-size: 60px;
+   overflow: hidden;
+   font-weight: 900;
+}
+:hover.box{
+    background-color: black;
+    color: aliceblue;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count{
+    /* display: flex; */
+    margin-right: 30px;
+    margin-top: 10px;
+}
